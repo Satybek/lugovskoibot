@@ -46,6 +46,10 @@ function addActionBot(name, src, text) {
   });
 }
 
+deleteButton.src = /.img/1.jpg;
+deleteButton.type = "image";
+document.body.appendChild(deleteButton)
+
 addActionBot("btn_1", text.text1);
 addActionBot("btn_2", text.text2);
 
