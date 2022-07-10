@@ -20,6 +20,7 @@ bot.command("course", async (ctx) => {
         [
           Markup.button.callback("Редакторы", "btn_1"),
           Markup.button.callback("Обзоры", "btn_2"),
+          Markup.button.callback("Новости", "btn_3")
         ],
       ])
     );
