@@ -2,6 +2,7 @@ const commands = `
 /start - Перезапустить бота
 /help - Помощь
 /course - Курсы
+/YouTube - YouTube
 `;
 
 const text1 =
