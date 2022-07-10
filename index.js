@@ -8,6 +8,9 @@ bot.start((ctx) =>
     `Привет ${
       ctx.message.from.first_name ? ctx.message.from.first_name : "незнакомец"
     }!`
+  bot.YouTube((ctx) =>
+  ctx.reply(
+    `https://www.youtube.com/
   )
 );
 bot.help((ctx) => ctx.reply(text.commands));
@@ -51,6 +54,7 @@ function addActionBot(name, src, text) {
 
 addActionBot("btn_1", "./img/1.jpg", text.text1);
 addActionBot("btn_2", text.text2);
+addActionBot("btn_3", text.text2);
 
 bot.launch();
 
